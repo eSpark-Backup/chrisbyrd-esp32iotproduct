@@ -1,5 +1,5 @@
 # Chris Byrd - ESP32 IoT Product
-The project deals with developing a custom board based off of ESP32 Module for the client that complies with the SOW shared by the client. The product is essentially an alarm signalling unit, to monitor the status of security / fire etc and send the alarm signal to the monitoring centre. A [competitor device](https://www.redcare.bt.com/assets/documents/installation-support/bt-redcare-installer-handbook.pdf) is shared as a referenceAll specifics of the project are enlisted.
+The project deals with developing a custom board based off of ESP32 Module for the client that complies with the SOW shared by the client. The product is essentially an alarm signalling unit, to monitor the status of security / fire etc and send the alarm signal to the monitoring centre. A [competitor device](https://www.redcare.bt.com/assets/documents/installation-support/bt-redcare-installer-handbook.pdf) is shared as a reference. All specifics of the project are enlisted.
 
 ## Project Requirements
 * The board will be powered using 9V-30V DC supply so the power section should be capable of supporting the complete range of voltages. In addition to this, the 5V rail and subsequent rails of the board can also be powered using MicroUSB connector. Please note that MicroUSB connector must not have any programming connections.

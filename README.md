@@ -7,7 +7,7 @@ The project deals with developing a custom board based off of ESP32 Module for t
 * ESP32 Module will be used as the main MCU. ESP32-S3 variant should be selected with 8MB Flash and 2MB PSRAM. Voltlink programming capability should be provided for the ESP32. Embedded antenna module should be selected.
 * 3 x push buttons are required with the MCU labelled as RESET, TEST and BLE_PAIR. RESET should be on the EN pin of ESP32 whereas TEST and BLE_PAIR can occupy any free GPIOs
 * 1 x separate LTE-CAT 1 chip. The modem finalized with client is SIM7500E.
-* 2 x separate SIM Card connectors should be given with the capability to switch between the active SIM using firmware.
+* 2 x separate SIM Card connectors should be given with the capability to switch between the active SIM using firmware. SIM cage should be Mini.
 * 1 x antenna for cellular connectivity. SMA connector will be provided for the antenna. End product will have an SMA to IPEX cable and and IPEX antenna.
 * 1 x antenna for GPS of modem. [This](https://www.te.com/usa-en/product-2118900-1.html) embedded antenna has been finalized by the client.
 * 1 x Ethernet with RJ45. This will require installing a PHY Chip since ESP32 doesn't have builtin Ethernet. W5500 is selected here. Working design is already available in Ambient Tracker Pro Schematic.

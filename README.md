@@ -35,7 +35,10 @@ The project consists of **five** boards that are listed as:
 * As small dimension as possible. Use smallest components possible.
 * USB POGO for updates on module board.
 * Optional screw-hole to firmly mount to enclosure
-* 
+* All comms modules will have the miniPCIE slot built into the PCB itself. The baseboard will have the mating connector. For concept, refer to the image below:
+![image](https://github.com/eSpark-Consultants/chrisbyrd-esp32iotproduct/assets/76909080/0cc94305-896f-4641-afa6-b2ecb042473d)
+
+
 ### LTE Module v2.0 (Comms module)
 * External angled SMA antenna directly on the module board (not using separate fly-lead).
 * SIM (x2) on the module board.

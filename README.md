@@ -15,16 +15,18 @@ The project consists of **five** boards that are listed as:
     * Inputs circuit will remain same but will be extended to 16 x inputs. Same as development-v1.0
     * Outut Relays / RS232 / RS485 and DTMF will also remain same as before.
 * The power input will be same as before.
-* Dying gasp will remain in compile mask.
+* Dying gasp will remain will be completely removed.
 * The circuit should be intelligent to auto switch between power supplies keeping 9-30VDC at priority.
 * 3 x Push buttons as before. Indication LEDs as before.
-* All system LEDs will remain as before.
+* All on board LEDs will be removed. Only System RGB LED will be left.
 * Move to a modular approach for comms modules so we can accomodate all scenarios without lots of different products.
 * 2 'comms module' slots/connectors.
 * Any module type should be able to go in either slot (ie both slots supporting all SPI pins required for W5500 etc, IO pins for any PWR activation).
 * The board must support 16 x inputs. The same circuitry for 8 x inputs will be re-used.
 * The MCU will remain same as before.
 * Need to ensure sufficient power for both slots to be populated
+* Expose I2C bus on both mPCIE slots.
+* Expose USB on both mPCIE slots.
 
 ### General description for Comms Modules
 * Should use the same motherboard connector for mating.
@@ -45,6 +47,7 @@ The project consists of **five** boards that are listed as:
 * SIM slot switching via SIM7500 GPIO.
 * GNSS antenna on the module (small space as possible).
 * Any LEDs such as NETLIGHT etc can be directly on the module board. Select and suggest appropriate glass pipe with LEDs to expose them from outside the casing.
+* SIM cage should be NANO size if not already.
 
 ### Ethernet Module v2.0 (Comms module)
 * W5500 on the module board

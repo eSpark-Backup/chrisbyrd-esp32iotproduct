@@ -23,7 +23,7 @@ The project consists of **five** boards that are listed as:
 * 2 'comms module' slots/connectors.
 * Any module type should be able to go in either slot (ie both slots supporting all SPI pins required for W5500 etc, IO pins for any PWR activation).
 * The board must support 16 x inputs. The same circuitry for 8 x inputs will be re-used.
-* The MCU will be shifted from ESP32 to an STM32F4 variant. Client will confirm the part number soon.
+* The MCU will remain same as before.
 * Need to ensure sufficient power for both slots to be populated
 
 ### General description for Comms Modules

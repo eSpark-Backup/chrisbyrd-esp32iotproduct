@@ -9,6 +9,8 @@ The project consists of **five** boards that are listed as:
 4. EthPoE Module
 5. LoRaWAN Module
 
+**Please note that every board must use the smallest available component as board dimension need to be as small as possible**
+
 ### Baseboard v2.0
 * The baseboard will now be reduced to only have the following circuits:
     * OLED and supporting circuit. Same as development-v1.0

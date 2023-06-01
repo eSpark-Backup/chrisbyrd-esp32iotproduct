@@ -67,6 +67,9 @@ The project consists of **five** boards that are listed as:
 * External angled SMA antenna directly on the module board
 * SPI to ESP32
 
+## miniPCIE Custom Pinout
+![image](https://github.com/eSpark-Consultants/chrisbyrd-esp32iotproduct/assets/76909080/6d125fa9-fed8-4042-a4f7-650fd19008c9)
+
 ## PCB Placement concept reference
 ![image](https://github.com/eSpark-Consultants/chrisbyrd-esp32iotproduct/assets/76909080/69b61e96-2dc5-45cb-8cac-e25a02b01084)
 

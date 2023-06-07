@@ -62,7 +62,7 @@ The project consists of **five** boards that are listed as:
 * Low-profile RJ45 connector directly on module board, accessible at the edge of the enclosure
 
 ### LoRaWAN Module v2.0 (Comms module)
-* UK/Europe 858Mhz
+* UK/Europe 868Mhz
 * Common tranceiver such as Semtech SX127X (Open discussion, most firmware friendly option should be selected)
 * External angled SMA antenna directly on the module board
 * SPI to ESP32

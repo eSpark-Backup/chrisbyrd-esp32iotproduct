@@ -1,27 +1,27 @@
 Board Information Report
-Filename     : C:\Users\XPENDER\Documents\GitHub\chrisbyrd-esp32iotproduct\Design Files\EthPoE-Module-v2.0\Eth_PoE.PcbDoc
-Date         : 6/6/2023
-Time         : 10:53:29 PM
-Time Elapsed : 00:00:01
+Filename     : E:\chrisbyrd-esp32iotproduct\Design Files\EthPoE-Module-v2.0\Eth_PoE.PcbDoc
+Date         : 6/7/2023
+Time         : 4:48:58 PM
+Time Elapsed : 00:00:00
 
 General
-    Board Size, 3645milsx960mils
+    Board Size, 3367milsx983mils
     Components on board, 80
 count : 2
 
 Routing Information
-    Routing completion, 33.16%
+    Routing completion, 99.48%
     Connections, 193
-    Connections routed, 64
-    Connections remaining, 129
+    Connections routed, 192
+    Connections remaining, 1
 count : 4
 
 Layer, Arcs, Pads, Vias, Tracks, Texts, Fills, Regions, ComponentBodies
-    Top Layer, 0, 248, 0, 122, 0, 21, 0, 0
-    Bottom Layer, 0, 26, 0, 29, 0, 4, 0, 0
-    Mechanical 1, 1, 0, 0, 3, 1, 0, 0, 79
-    Board_Outline, 1, 0, 0, 7, 0, 0, 0, 0
-    Multi-Layer, 0, 18, 73, 0, 0, 0, 1, 0
+    Top Layer, 0, 248, 0, 363, 0, 54, 5, 0
+    Bottom Layer, 0, 26, 0, 170, 0, 10, 5, 0
+    Draft and Dimension, 1, 0, 0, 19, 3, 0, 0, 79
+    Board_Outline, 1, 0, 0, 18, 0, 0, 0, 0
+    Multi-Layer, 0, 22, 130, 0, 0, 0, 1, 0
     Top Paste, 0, 0, 0, 0, 0, 0, 0, 0
     Top Overlay, 2, 0, 0, 440, 165, 9, 0, 0
     Top Solder, 0, 0, 0, 0, 0, 0, 0, 0
@@ -35,8 +35,3 @@ count : 14
 
 Drill Pairs, Vias
 count : 0
-
-Layer, Sq.In., Sq.MM., Percent of layer
-    Top Layer, 0.924, 596.306, 26%
-    Bottom Layer, 0.285, 183.61, 8%
-count : 2

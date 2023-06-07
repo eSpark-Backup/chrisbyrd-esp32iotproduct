@@ -8,18 +8,18 @@ The project consists of **five** boards that are listed as:
 3. Ethernet Module
 4. EthPoE Module
 5. LoRaWAN Module
+6. OLED Module
 
 **Please note that every board must use the smallest available component as board dimension need to be as small as possible**
 
 ### Baseboard v2.0
 * The baseboard will now be reduced to only have the following circuits:
-    * OLED and supporting circuit. Same as development-v1.0
     * Inputs circuit will remain same but will be extended to 16 x inputs. Same as development-v1.0
     * Outut Relays / RS232 / RS485 and DTMF will also remain same as before.
 * The power input will be same as before.
-* Dying gasp will remain will be completely removed.
+* Indication LEDs same as before.
+* Dying gasp will be completely removed.
 * The circuit should be intelligent to auto switch between power supplies keeping 9-30VDC at priority.
-* 3 x Push buttons as before. Indication LEDs as before.
 * All on board LEDs will be removed. Only System RGB LED will be left.
 * Move to a modular approach for comms modules so we can accomodate all scenarios without lots of different products.
 * 2 'comms module' slots/connectors.
@@ -30,11 +30,16 @@ The project consists of **five** boards that are listed as:
 * Expose I2C bus on both mPCIE slots.
 * Expose USB on both mPCIE slots.
 
+### OLED v2.0
+* OLED and supporting circuit. Same as development-v1.0
+* 3 x Push buttons as before. System LED as before.
+* The PCB should have headers on both sides (top and bottom) for connection with main board.
+
 ### General description for Comms Modules
 * Should use the same motherboard connector for mating.
 * Should be the same footprint as other module boards.
 * Any external connectors should be accessible when the device is in the enclosure.
-* 2 IO pins per slot to identify the comms module type (00=LTE; GPIO PU/PD can be used).
+* 4 IO pins per slot to identify the comms module type (00=LTE; GPIO PU/PD can be used).
 * Overall device should still remain as flat as possible.
 * As small dimension as possible. Use smallest components possible.
 * USB POGO for updates on module board.
@@ -54,12 +59,14 @@ The project consists of **five** boards that are listed as:
 ### Ethernet Module v2.0 (Comms module)
 * W5500 on the module board
 * Low-profile RJ45 connector directly on module board, accessible at the edge of the enclosure
+* [ARJM11D7-114-AB-EW2](https://eu.mouser.com/ProductDetail/ABRACON/ARJM11D7-114-AB-EW2?qs=YCa%2FAAYMW02ICsJcHu%252BNJg%3D%3D) is recommended.
 
 
 ### EthPoE Module v2.0 (Comms module)
 * W5500 on the module board
 * POE 802.3af support with all the components on the module board
-* Low-profile RJ45 connector directly on module board, accessible at the edge of the enclosure
+* Low-profile RJ45 connector directly on module board, accessible at the edge of the enclosure.
+* [ARJM11D7-114-AB-EW2](https://eu.mouser.com/ProductDetail/ABRACON/ARJM11D7-114-AB-EW2?qs=YCa%2FAAYMW02ICsJcHu%252BNJg%3D%3D) is recommended.
 
 ### LoRaWAN Module v2.0 (Comms module)
 * UK/Europe 868Mhz

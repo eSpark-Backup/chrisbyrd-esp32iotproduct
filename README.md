@@ -79,7 +79,14 @@ The project consists of **five** boards that are listed as:
 [ChrisByrd-PinMappingmPCIE](https://docs.google.com/spreadsheets/d/1UC85la9PA6Eosm3OwLXHTxeFnjLNLskoqfJ7Z_iW8N4/edit#gid=0)
 
 ## PCB Placement concept reference
-![image](https://github.com/eSpark-Consultants/chrisbyrd-esp32iotproduct/assets/76909080/69b61e96-2dc5-45cb-8cac-e25a02b01084)
+### Top View (Aerial View)
+![image](https://github.com/eSpark-Consultants/chrisbyrd-esp32iotproduct/assets/76909080/1f95a135-d252-4808-8fca-8252b7d831c3)
+
+### Top View (Aerial View; Without Comms modules placed)
+![image](https://github.com/eSpark-Consultants/chrisbyrd-esp32iotproduct/assets/76909080/a414fa4d-9781-4f56-9394-f436f4fba37c)
+
+### Front View
+![image](https://github.com/eSpark-Consultants/chrisbyrd-esp32iotproduct/assets/76909080/9c0c17f4-6431-49bd-ac9b-5abfbb7695bf)
 
 ## Product Concept Image
 ![image](https://user-images.githubusercontent.com/76909080/231306667-7d5fe828-1458-43cc-afbd-3eca53725494.png)

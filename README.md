@@ -75,7 +75,7 @@ The project consists of **five** boards that are listed as:
 * SPI to ESP32
 
 ## miniPCIE Custom Pinout
-[ChrisByrd-PinMappingmPCIE](https://github.com/eSpark-Consultants/chrisbyrd-esp32iotproduct/assets/76909080/6d125fa9-fed8-4042-a4f7-650fd19008c9)](https://docs.google.com/spreadsheets/d/1UC85la9PA6Eosm3OwLXHTxeFnjLNLskoqfJ7Z_iW8N4/edit#gid=0)
+[ChrisByrd-PinMappingmPCIE](https://docs.google.com/spreadsheets/d/1UC85la9PA6Eosm3OwLXHTxeFnjLNLskoqfJ7Z_iW8N4/edit#gid=0)
 
 ## PCB Placement concept reference
 ![image](https://github.com/eSpark-Consultants/chrisbyrd-esp32iotproduct/assets/76909080/69b61e96-2dc5-45cb-8cac-e25a02b01084)

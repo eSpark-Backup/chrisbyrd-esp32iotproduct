@@ -1,32 +1,32 @@
 Board Information Report
 Filename     : E:\chrisbyrd-esp32iotproduct\Design Files\EthPoE-Module-v2.0\Eth_PoE.PcbDoc
-Date         : 6/7/2023
-Time         : 4:48:58 PM
+Date         : 6/9/2023
+Time         : 6:04:15 PM
 Time Elapsed : 00:00:00
 
 General
-    Board Size, 3367milsx983mils
-    Components on board, 80
+    Board Size, 2204.59milsx1431.812mils
+    Components on board, 82
 count : 2
 
 Routing Information
-    Routing completion, 99.48%
-    Connections, 193
-    Connections routed, 192
-    Connections remaining, 1
+    Routing completion, 64.29%
+    Connections, 196
+    Connections routed, 126
+    Connections remaining, 70
 count : 4
 
 Layer, Arcs, Pads, Vias, Tracks, Texts, Fills, Regions, ComponentBodies
-    Top Layer, 0, 248, 0, 363, 0, 54, 5, 0
-    Bottom Layer, 0, 26, 0, 170, 0, 10, 5, 0
-    Draft and Dimension, 1, 0, 0, 19, 3, 0, 0, 79
-    Board_Outline, 1, 0, 0, 18, 0, 0, 0, 0
-    Multi-Layer, 0, 22, 130, 0, 0, 0, 1, 0
+    Top Layer, 0, 169, 0, 232, 0, 34, 0, 0
+    Bottom Layer, 0, 109, 0, 124, 0, 19, 0, 0
+    Draft and Dimension, 1, 0, 0, 5, 1, 0, 0, 81
+    Board_Outline, 3, 0, 0, 11, 0, 0, 0, 0
+    Multi-Layer, 0, 20, 95, 0, 0, 0, 1, 0
     Top Paste, 0, 0, 0, 0, 0, 0, 0, 0
-    Top Overlay, 2, 0, 0, 440, 165, 9, 0, 0
+    Top Overlay, 2, 0, 0, 260, 97, 5, 0, 0
     Top Solder, 0, 0, 0, 0, 0, 0, 0, 0
     Bottom Solder, 0, 0, 0, 0, 0, 0, 0, 0
-    Bottom Overlay, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom Overlay, 0, 0, 0, 183, 72, 4, 0, 0
     Bottom Paste, 0, 0, 0, 0, 0, 0, 0, 0
     Drill Guide, 0, 0, 0, 0, 0, 0, 0, 0
     Keep-Out Layer, 0, 0, 0, 0, 0, 0, 0, 0

@@ -15,7 +15,7 @@ The project consists of **five** boards that are listed as:
 ### Baseboard v2.0
 * The baseboard will now be reduced to only have the following circuits:
     * Inputs circuit will remain same but will be extended to 16 x inputs. Same as development-v1.0
-    * Outut Relays / RS232 / RS485 and DTMF will also remain same as before.
+    * Outut Relays will be reduced to 3 Relays instead of 4 / RS232 / RS485 and DTMF will also remain same as before.
 * The power input will be same as before.
 * Indication LEDs same as before.
 * Dying gasp will be completely removed.
@@ -31,8 +31,8 @@ The project consists of **five** boards that are listed as:
 * Expose USB on both mPCIE slots.
 
 ### OLED v2.0
-* OLED and supporting circuit. Same as development-v1.0
-* 3 x Push buttons as before. System LED as before.
+* OLED and supporting circuit. Same as development-v1.0. The OLED so selected should be 128x64 0.96 inch I2C based that has a external connector for easy integration with casing.
+* 3 x Push buttons as before. System LED as before. The buttons will be finalized after input from the casing designer about the height / nose of the button.
 * The PCB should have headers on both sides (top and bottom) for connection with main board.
 
 ### General description for Comms Modules

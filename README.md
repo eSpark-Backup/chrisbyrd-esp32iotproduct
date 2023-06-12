@@ -16,7 +16,7 @@ The project consists of **five** boards that are listed as:
 * The baseboard will now be reduced to only have the following circuits:
     * Inputs circuit will remain same but will be extended to 16 x inputs. Same as development-v1.0
     * Outut Relays will be reduced to 3 Relays instead of 4 / RS232 / RS485 and DTMF will also remain same as before.
-* The power input will be same as before.
+* The power input will be same as before. However, there is a change request that USB power input will now be done via USB-C connector
 * Indication LEDs same as before.
 * Dying gasp will be completely removed.
 * The circuit should be intelligent to auto switch between power supplies keeping 9-30VDC at priority.
@@ -28,7 +28,7 @@ The project consists of **five** boards that are listed as:
 * The MCU will be changed to an ESP32-S3R8 with additional external 8MB Flash. The antenna type is both UFL and PCB Antenna. The PCB antenna will be designed similar to module and then using an SPDT RF switch, the user should also be able to select an external UFL SMA connector based antenna.
 * Need to ensure sufficient power for both slots to be populated
 * Expose I2C bus on both mPCIE slots.
-* Expose USB on both mPCIE slots. Additionally, for JTAG support, we can use the same D+ and D- pins. Refer to [this](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/api-guides/jtag-debugging/) article for more information and to see if there's any limitation. The connector for JTAG exposure is not finalized by client yet but we can initially give MicroUSB connector.
+* Expose USB on both mPCIE slots. Additionally, for JTAG support, we can use the same D+ and D- pins. Refer to [this](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/api-guides/jtag-debugging/) article for more information and to see if there's any limitation. The same power USB-C connector will be used for JTAG capability in prototype and will be NC in production version.
 
 ### OLED v2.0
 * OLED and supporting circuit. Same as development-v1.0. The OLED so selected should be 128x64 0.96 inch I2C based that has a external connector for easy integration with casing.

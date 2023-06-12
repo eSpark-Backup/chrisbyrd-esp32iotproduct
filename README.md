@@ -24,11 +24,11 @@ The project consists of **five** boards that are listed as:
 * Move to a modular approach for comms modules so we can accomodate all scenarios without lots of different products.
 * 2 'comms module' slots/connectors.
 * Any module type should be able to go in either slot (ie both slots supporting all SPI pins required for W5500 etc, IO pins for any PWR activation).
-* The board must support 16 x inputs. The same circuitry for 8 x inputs will be re-used.
-* The MCU will remain same as before.
+* The board must support 16 x inputs. The same circuitry for 8 x inputs will be re-used. All inputs should be same (i.e if they are directly connected, all should be this way, if even one of them is through expander, all of them should be shifted to expander). For the expander, please give INTA, INTB and RESET pins on MCU GPIOs.
+* The MCU will be changed to an ESP32-S3R8 with additional external 8MB Flash. The antenna type is TBD. It will most likely be a chip type antenna.
 * Need to ensure sufficient power for both slots to be populated
 * Expose I2C bus on both mPCIE slots.
-* Expose USB on both mPCIE slots.
+* Expose USB on both mPCIE slots. Additionally, for JTAG support, we can use the same D+ and D- pins. Refer to [this](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/api-guides/jtag-debugging/) article for more information and to see if there's any limitation. The connector for JTAG exposure is not finalized by client yet but we can initially give MicroUSB connector.
 
 ### OLED v2.0
 * OLED and supporting circuit. Same as development-v1.0. The OLED so selected should be 128x64 0.96 inch I2C based that has a external connector for easy integration with casing.

@@ -36,7 +36,7 @@ The project consists of **five** boards that are listed as:
 * The PCB should have headers on both sides (top and bottom) for connection with main board.
 
 ### General description for Comms Modules
-* Currently finalized dimensions for all Module boards (except for OLED board) are: 56mm(L) x 36.37mm(W)
+* Currently finalized dimensions for all Module boards (except for OLED board) are: 53mm(L) x 33mm(W)
 * Should use the same motherboard connector for mating.
 * Should be the same footprint as other module boards.
 * Any external connectors should be accessible when the device is in the enclosure.

@@ -29,6 +29,8 @@ The project consists of **five** boards that are listed as:
 * Need to ensure sufficient power for both slots to be populated
 * Expose I2C bus on both mPCIE slots.
 * Expose USB on both mPCIE slots. Additionally, for JTAG support, we can use the same D+ and D- pins. Refer to [this](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/api-guides/jtag-debugging/) article for more information and to see if there's any limitation. The same power USB-C connector will be used for JTAG capability in prototype and will be NC in production version.
+* The pin naming concept from client is uploaded [here](https://github.com/eSpark-Consultants/chrisbyrd-esp32iotproduct/assets/76909080/de9421c7-bf26-46f6-a9f4-a8df74dabe0c). Please make room for these signals. The main intent here is to be able to identify in which slot, the module is inserted.
+
 
 ### OLED v2.0
 * OLED and supporting circuit. Same as development-v1.0. The OLED so selected should be 128x64 0.96 inch I2C based that has a external connector for easy integration with casing.

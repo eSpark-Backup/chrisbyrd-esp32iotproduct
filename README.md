@@ -50,6 +50,17 @@ The project consists of **five** boards that are listed as:
 * All comms modules will have the miniPCIE slot built into the PCB itself. The baseboard will have the mating connector. For concept, refer to the image below:  
 ![image](https://github.com/eSpark-Consultants/chrisbyrd-esp32iotproduct/assets/76909080/0cc94305-896f-4641-afa6-b2ecb042473d)
 
+#### Genarel Layer Stack for Comms Modules
+* Layer stackup should be 1mm with 1oz.
+
+| Layer      | Thickness (mm) |
+| ----------- | ----------- |
+| Solder Mask      | 0.01 - 0.015       |
+| Copper   | 0.035        |
+| Core     | 0.9mm       |
+| Copper   | 0.035        |
+| Solder Mask      | 0.01 - 0.015       |
+
 
 ### LTE Module v2.0 (Comms module)
 * External angled SMA antenna directly on the module board (not using separate fly-lead).

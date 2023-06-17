@@ -1,0 +1,22 @@
+Altium Designer Pick and Place Locations
+C:\Users\XPENDER\Documents\GitHub\chrisbyrd-esp32iotproduct\Design Files\LoRaWAN-Module-v2.0\LoRaWAN-Module-v2.0\Project Outputs for LoRaWAN-Module-v2.0\Pick Place for LoRaWAN_v2.0.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       18/06/23
+Time:       00:59
+Revision:   3d89ab72d8b6f85d4e0e1beb34aa73538d842460
+Variant:    No variations
+Units used: mm
+
+Designator Layer       Center-X(mm) Center-Y(mm) Rotation Ref-X(mm) Ref-Y(mm) Pad-X(mm) Pad-Y(mm) 
+C1         TopLayer    20,1930mm    40,2082mm    0        20,1930mm 40,2082mm 19,4310mm 40,2082mm 
+C2         TopLayer    20,1930mm    38,8112mm    180      20,1930mm 38,8112mm 20,9550mm 38,8112mm 
+J1         TopLayer    16,5000mm    -1,9000mm    0        4,7000mm  -1,9000mm 4,7000mm  -1,9000mm 
+J2         BottomLayer 28,9480mm    45,5930mm    180      28,9480mm 45,5930mm 28,9480mm 45,5930mm 
+R1         TopLayer    5,2832mm     2,5610mm     270      5,2832mm  2,5610mm  5,2832mm  2,8360mm  
+R2         TopLayer    6,5532mm     2,5610mm     270      6,5532mm  2,5610mm  6,5532mm  2,8360mm  
+R3         TopLayer    19,6832mm    2,5610mm     270      19,6832mm 2,5610mm  19,6832mm 2,8360mm  
+R4         TopLayer    20,9532mm    2,5610mm     270      20,9532mm 2,5610mm  20,9532mm 2,8360mm  
+U1         TopLayer    21,9710mm    28,6512mm    270      21,9710mm 28,6512mm 14,9710mm 20,6512mm 

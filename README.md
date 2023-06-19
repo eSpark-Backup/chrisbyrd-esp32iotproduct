@@ -14,13 +14,14 @@ The project consists of **five** boards that are listed as:
 
 ### Baseboard v2.0
 * The baseboard will now be reduced to only have the following circuits:
-    * Inputs circuit will remain same but will be extended to 16 x inputs. Same as development-v1.0
-    * Outut Relays will be reduced to 3 Relays instead of 4 / RS232 / RS485 and DTMF will also remain same as before.
+    * Inputs circuit will remain same but will be extended to 12 x inputs. The input protection scheme will be changed to using simple basic Zeners with necessary protection such that it can protect a 3.3V IO up to 39VDC.
+    * Outut Relays will be reduced to 3 Relays instead of 4. The relay names will be RELAY1, RELAY2 and RELAY 3. RS232 / RS485 and DTMF will also remain same as before. There should be additional chasis GND pin for RS232 / RS485.
+    * There should be capability to simulate a phone line using PWM output from ESP32. Further study needs to be done from [this](https://york.hackspace.org.uk/blog/simulating-a-phone-line/) article.
 * The power input will be same as before. However, there is a change request that USB power input will now be done via USB-C connector
 * Indication LEDs same as before.
 * Dying gasp will be completely removed.
 * The circuit should be intelligent to auto switch between power supplies keeping 9-30VDC at priority.
-* All on board LEDs will be removed. Only System RGB LED will be left.
+* All on board LEDs will be removed.
 * Move to a modular approach for comms modules so we can accomodate all scenarios without lots of different products.
 * 2 'comms module' slots/connectors.
 * Any module type should be able to go in either slot (ie both slots supporting all SPI pins required for W5500 etc, IO pins for any PWR activation).
@@ -31,10 +32,11 @@ The project consists of **five** boards that are listed as:
 * Expose USB on both mPCIE slots. Additionally, for JTAG support, we can use the same D+ and D- pins. Refer to [this](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/api-guides/jtag-debugging/) article for more information and to see if there's any limitation. The same power USB-C connector will be used for JTAG capability in prototype and will be NC in production version.
 * The pin naming concept from client is uploaded [here](https://github.com/eSpark-Consultants/chrisbyrd-esp32iotproduct/assets/76909080/de9421c7-bf26-46f6-a9f4-a8df74dabe0c). Please make room for these signals. The main intent here is to be able to identify in which slot, the module is inserted.
 * The USB D+ and D- will also be connected to OLED board.
+* 1 x push button connected to ESP32 RESET. This button needs to be right angled and exposed from one of the suitable edges of the PCB.
 
 ### OLED v2.0
 * OLED and supporting circuit. Same as development-v1.0. The OLED so selected should be 128x64 0.96 inch I2C based that has a external connector for easy integration with casing.
-* 3 x Push buttons as before. System LED as before. The buttons will be finalized after input from the casing designer about the height / nose of the button.
+* 3 x Push buttons as before. They will be called BTN1, BTN2 and BTN3. System LED as before. The buttons will be finalized after input from the casing designer about the height / nose of the button.
 * The PCB should have headers on both sides (top and bottom) for connection with main board.
 
 ### General description for Comms Modules

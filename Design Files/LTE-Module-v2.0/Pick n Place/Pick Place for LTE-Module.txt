@@ -4,9 +4,9 @@ C:\Users\XPENDER\Documents\GitHub\chrisbyrd-esp32iotproduct\Design Files\LTE-Mod
 ========================================================================================================================
 File Design Information:
 
-Date:       18/06/23
-Time:       02:48
-Revision:   ae1b2264be46a01a26568415426a9952329b9aa1
+Date:       19/06/23
+Time:       22:30
+Revision:   9213f7ec9b541f06519ab439b150e8858d0e399c
 Variant:    No variations
 Units used: mm
 
@@ -25,7 +25,7 @@ D4         TopLayer    2,8248mm     26,3398mm    90       2,8248mm  26,3398mm 2,
 R16        TopLayer    8,1288mm     4,5212mm     90       8,1288mm  4,5212mm  8,1288mm  3,7592mm  
 R15        TopLayer    6,8504mm     4,5212mm     90       6,8504mm  4,5212mm  6,8504mm  3,7592mm  
 J2         TopLayer    16,5000mm    -1,9000mm    0        4,7000mm  -1,9000mm 4,7000mm  -1,9000mm 
-J1         BottomLayer 28,9484mm    45,5930mm    180      28,9484mm 45,5930mm 28,9484mm 45,5930mm 
+J1         BottomLayer 28,9480mm    45,5930mm    180      28,9480mm 45,5930mm 28,9480mm 45,5930mm 
 C1         TopLayer    9,9822mm     48,7934mm    0        9,9822mm  48,7934mm 9,2202mm  48,7934mm 
 Ant1       TopLayer    6,5658mm     48,7934mm    0        6,5658mm  48,7934mm 5,7658mm  48,7934mm 
 U5         BottomLayer 26,5608mm    4,7498mm     0        26,5608mm 4,7498mm  25,0108mm 3,9998mm  
@@ -69,5 +69,3 @@ C8         TopLayer    3,9497mm     19,8882mm    0        3,9497mm  19,8882mm 3,
 C7         BottomLayer 28,2702mm    17,1186mm    180      28,2702mm 17,1186mm 29,0322mm 17,1186mm 
 C6         TopLayer    29,3364mm    5,0549mm     270      29,3364mm 5,0549mm  29,3364mm 6,7549mm  
 C5         BottomLayer 28,2702mm    18,4268mm    0        28,2702mm 18,4268mm 27,5082mm 18,4268mm 
-C4         TopLayer    4,2926mm     39,5224mm    180      4,2926mm  39,5224mm 5,0546mm  39,5224mm 
-C3         TopLayer    4,2926mm     42,9260mm    180      4,2926mm  42,9260mm 5,0546mm  42,9260mm 

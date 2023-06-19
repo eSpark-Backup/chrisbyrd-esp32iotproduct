@@ -14,8 +14,8 @@ D22   RECTANGULAR        39.724      34.724       0.000 FLASH     270.000
 D23   ROUNDED           106.425     106.425       0.000 FLASH       0.000
 D24   ROUNDED            90.677      90.677       0.000 FLASH       0.000
 D25   ROUNDED            31.622      31.622       0.000 FLASH       0.000
-D26   ROUNDED            15.000      15.000       0.000  LINE       0.000
-D27   ROUNDED            22.000      22.000       0.000  LINE       0.000
+D26   ROUNDED            22.000      22.000       0.000  LINE       0.000
+D27   ROUNDED            15.000      15.000       0.000  LINE       0.000
 D28   ROUNDED            62.500      62.500       0.000  LINE       0.000
 D29   ROUNDED            12.000      12.000       0.000  LINE       0.000
 D30   RECTANGULAR        74.000      89.000       0.000 FLASH       0.000

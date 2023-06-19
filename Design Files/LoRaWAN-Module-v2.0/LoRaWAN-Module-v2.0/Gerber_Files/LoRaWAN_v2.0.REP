@@ -155,7 +155,6 @@ Generating : Bottom Layer
 
 
 Used DCodes :
-    D11
     D17
     D26
     D27
@@ -209,7 +208,7 @@ Generating : Drill Drawing
 
 Used DCodes :
     D11
-    D26
+    D27
     D44
     D45
 *************************************************************

@@ -302,7 +302,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document16]
-DocumentPath=Baseboard-v2.0.PcbDoc
+DocumentPath=..\..\..\..\Desktop\Baseboard-v2.0.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0

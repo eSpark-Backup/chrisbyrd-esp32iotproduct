@@ -70,7 +70,8 @@ The project consists of **five** boards that are listed as:
 * SIM slot switching via SIM7500 GPIO.
 * GNSS antenna on the module (small space as possible).
 * Any LEDs such as NETLIGHT etc can be directly on the module board. Select and suggest appropriate glass pipe with LEDs to expose them from outside the casing.
-* SIM cage should be NANO size if not already.
+* Both SIM cages should be NANO size if not already.
+* SIM CD pins to be used and given on the Modem GPIOs (if possible), otherwise exposed to mPCIE for connection with ESP32.
 
 ### Ethernet Module v2.0 (Comms module)
 * W5500 on the module board

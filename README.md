@@ -33,6 +33,7 @@ The project consists of **five** boards that are listed as:
 * The pin naming concept from client is uploaded [here](https://github.com/eSpark-Consultants/chrisbyrd-esp32iotproduct/assets/76909080/de9421c7-bf26-46f6-a9f4-a8df74dabe0c). Please make room for these signals. The main intent here is to be able to identify in which slot, the module is inserted.
 * The USB D+ and D- will also be connected to OLED board.
 * 1 x push button connected to ESP32 RESET. This button needs to be right angled and exposed from one of the suitable edges of the PCB.
+* All slots type pins should be default 0000 so that ESP32 can detect that nothing is plugged into the slot.
 
 ### OLED v2.0
 * OLED and supporting circuit. Same as development-v1.0. The OLED so selected should be 128x64 0.96 inch I2C based that has a external connector for easy integration with casing.
@@ -63,6 +64,14 @@ The project consists of **five** boards that are listed as:
 | Copper   | 0.035        |
 | Solder Mask      | 0.01 - 0.015       |
 
+#### Module Address for Comms Modules
+
+| Board Name      | Address |
+| ----------- | ----------- |
+| LTE Module      | 0100       |
+| Ethernet Module   | 0001        |
+| EthPoE Module     | 0010       |
+| LoRaWAN Module   | 0011        |
 
 ### LTE Module v2.0 (Comms module)
 * External angled SMA antenna directly on the module board (not using separate fly-lead).

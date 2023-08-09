@@ -335,6 +335,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HCLHBNJW
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Baseboard-v2.0\Design Rule Check - Baseboard-v2.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0

@@ -1,0 +1,35 @@
+Altium Designer Pick and Place Locations
+C:\Users\LiberDB\Documents\GitHub\chrisbyrd-esp32iotproduct\Design Files\Adv-OLED-v2.0\Project Outputs for Adv-OLED-v2.0\Pick Place for Adv-OLED_v2.0.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       12/10/23
+Time:       22:26
+Revision:   1fa6402b3adb4033f8a3387241dc119785912990
+Variant:    No variations
+Units used: mm
+
+"Designator","Layer","Center-X(mm)","Center-Y(mm)","Rotation","Ref-X(mm)","Ref-Y(mm)","Pad-X(mm)","Pad-Y(mm)"
+"C4","BottomLayer","80,4164mm","29,3751mm","90","80,4164mm","29,3751mm","80,4164mm","28,9052mm"
+"C5","BottomLayer","80,4164mm","19,7485mm","90","80,4164mm","19,7485mm","80,4164mm","19,2786mm"
+"C6","BottomLayer","80,4418mm","10,0838mm","90","80,4418mm","10,0838mm","80,4418mm","9,6139mm"
+"C7","BottomLayer","20,7010mm","20,2946mm","0","20,7010mm","20,2946mm","20,2311mm","20,2946mm"
+"C9","BottomLayer","20,7010mm","19,2024mm","0","20,7010mm","19,2024mm","20,2311mm","19,2024mm"
+"J1","TopLayer","-1,0160mm","8,1280mm","90","-1,0160mm","8,1280mm","-1,0160mm","4,3780mm"
+"J2","BottomLayer","12,0040mm","30,0000mm","0","12,0040mm","30,0000mm","7,7540mm","28,6500mm"
+"J3","BottomLayer","16,7122mm","19,2872mm","90","16,7122mm","19,2872mm","18,0622mm","15,0372mm"
+"LED1","TopLayer","0,0277mm","29,0628mm","180","0,0277mm","29,0628mm","1,4278mm","28,1627mm"
+"Q1","BottomLayer","3,7592mm","25,8826mm","270","3,7592mm","25,8826mm","4,7592mm","26,8326mm"
+"Q2","BottomLayer","22,6822mm","11,9380mm","270","22,6822mm","11,9380mm","23,6822mm","12,8880mm"
+"R1","BottomLayer","6,0706mm","25,4762mm","270","6,0706mm","25,4762mm","6,0706mm","25,7512mm"
+"R2","BottomLayer","1,4224mm","26,4414mm","270","1,4224mm","26,4414mm","1,4224mm","26,7164mm"
+"R3","BottomLayer","24,7396mm","12,4714mm","270","24,7396mm","12,4714mm","24,7396mm","12,7464mm"
+"R4","BottomLayer","25,5016mm","12,4714mm","270","25,5016mm","12,4714mm","25,5016mm","12,7464mm"
+"R5","BottomLayer","20,7142mm","17,0222mm","180","20,7142mm","17,0222mm","21,1841mm","17,0222mm"
+"R6","BottomLayer","20,7010mm","15,3142mm","180","20,7010mm","15,3142mm","21,1709mm","15,3142mm"
+"R7","BottomLayer","20,7010mm","18,0340mm","180","20,7010mm","18,0340mm","21,1709mm","18,0340mm"
+"R8","BottomLayer","20,7142mm","13,5950mm","180","20,7142mm","13,5950mm","21,1841mm","13,5950mm"
+"SW1","TopLayer","82,3492mm","29,0682mm","0","82,3492mm","29,0682mm","80,4242mm","29,8182mm"
+"SW2","TopLayer","82,3495mm","19,4478mm","0","82,3495mm","19,4478mm","84,2746mm","20,1978mm"
+"SW3","TopLayer","82,3732mm","9,8278mm","0","82,3732mm","9,8278mm","84,2982mm","10,5778mm"

@@ -1,0 +1,11 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [EthPoE-Module-v2.0.PrjPcb]
+   Generated File[Pick Place for Eth_PoE.txt]
+   Generated File[Pick Place for Eth_PoE.csv]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 10:03:47 AM On 10/13/2023

@@ -1,0 +1,11 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [Ethernet-Module-v2.0.PrjPcb]
+   Generated File[Pick Place for Ethernet-Module.txt]
+   Generated File[Pick Place for Ethernet-Module.csv]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 10:24:30 AM On 10/13/2023

@@ -1,0 +1,8 @@
+DRC Rules Export File for PCB: C:\Users\LiberDB\Documents\GitHub\chrisbyrd-esp32iotproduct\Design Files\Baseboard-v2.0\Baseboard-v2.0.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_INNER2|Scope=Board|Minimum=15.00
+RuleKind=Clearance|RuleName=Clearance_TOP|Scope=Board|Minimum=7.00
+RuleKind=Clearance|RuleName=Clearance_BOTTOM|Scope=Board|Minimum=7.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=5.00
+RuleKind=Clearance|RuleName=Clearance_INNER1|Scope=Board|Minimum=15.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

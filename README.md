@@ -16,7 +16,7 @@ The project consists of a single board having capability to provide all the vari
 * The baseboard will have all the circuitry from the old v2.1 along with following additions / removals / changes:
     * The SoC will now be based on STM32F407 (preferably STM32F407VET6). Please do check JLCPCB availability before finalizing selection.
     * 32MB SPI Flash
-    * ESP8266 for wifi with MMCX antenna connector
+    * ESP8266 module for wifi with MMCX antenna connector
     * RS232 will stay
     * RS485 will stay
     * 9-30v DC power input (same as before)

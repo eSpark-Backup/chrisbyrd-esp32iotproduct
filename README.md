@@ -14,7 +14,9 @@ The project consists of a single board having capability to provide all the vari
 
 ### Baseboard v3.0
 * The baseboard will have all the circuitry from the old v2.1 along with following additions / removals / changes:
-    * The SoC based circuit will be shifted back to ESP32-S3 module with IPEX antenna connector. Please use the same module variant as the selected SoC.
+    * The SoC will now be based on STM32F407 (preferably STM32F407VET6). Please do check JLCPCB availability before finalizing selection.
+    * 32MB SPI Flash
+    * ESP8266 for wifi with MMCX antenna connector
     * RS232 will stay
     * RS485 will stay
     * 9-30v DC power input (same as before)
@@ -22,9 +24,9 @@ The project consists of a single board having capability to provide all the vari
     * Output relays: 3 (max 1A @ 30V DC)
     * GPIO Input pins: 12 (-0.5V – 30V)
     * JTAG Pogo for prototypes programming
-    * Remove: dialer circuitry along with connections on ESP32
+    * Dialer circuitry (same as before) along with a Si32184-A-GM chip with connections to STM32 as SPI  + PCM. Competitor redcare also seems to have TVS LCP1521S on the chip.
     * Remove: ATEC608 along with related circuitry and connections
-    * W5500 ethernet (non-POE). [Suggested connector](https://jlcpcb.com/partdetail/Hctl-HC_RJ45_0535/C3010566) but open to suggestions
+    * Use ethernet MAC in STM32 and add DP83825I PHY (non-POE). [Suggested connector](https://jlcpcb.com/partdetail/Hctl-HC_RJ45_0535/C3010566) but open to suggestions
     * A7682E LTE modules x 2
     * MMCX antenna connector for both modems
     * Remove: All GPS based circuitry and antennae
@@ -32,7 +34,7 @@ The project consists of a single board having capability to provide all the vari
         * There can be a single Modem with single SIM upon which the whole 2nd SIM cage and switcher circuitry will be DNP
         * There can be a signle modem with dual SIM upon which the same Modem will have connection to both SIM Cages via Switcher as in old design.
         * There can be two Modems with Two SIMs each upon which, 1st SIM Cage will be with 1st Modem and 2nd SIM cage will with 2nd Modem. Solder bridger combinations with proper notes in schematic are needed here.
-    * The [OLED](https://www.amazon.co.uk/components-Display-0-96inch-Horizontal-SSD1306/dp/B07SX13VZY?th=1) should be on a separate PCB elevated via 2 header strips and this elevated board should have 3 buttons. The OLED link is only for reference of what type of OLED to use but the elevated PCB will be a custom made with custom circuitry for OLED (see if the ones from old versions OLED boards can be reused).
+    * The [OLED](https://www.amazon.co.uk/components-Display-0-96inch-Horizontal-SSD1306/dp/B07SX13VZY?th=1) should be on same Baseboard PCB along with 3 buttons. The OLED link is only for reference of what type of OLED to use but the driver for OLED will be a custom made with custom circuitry for OLED (see if the ones from old versions OLED boards can be reused). The baseboard will also have an FCC connector for connecting OLED directly to Baseboard. Suggest if there are some standard connectors.
 
 
 

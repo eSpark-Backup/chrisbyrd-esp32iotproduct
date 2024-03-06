@@ -4,10 +4,11 @@ The project deals with developing a custom board based off of ESP32 for the clie
 ## Project Requirements v3.0
 The project consists of a single board having capability to provide all the variants features as listed below from older revisions:
 - Baseboard
-    - Wifi Variant
-    - Wifi + LTE Variant
-    - Wifi + Ethernet Variant
-    - Wifi + Ethernet + LTE Variant
+    - WIFI
+    - WIFI+LTE (SINGLE & DUAL SIM option)
+    - WIFI+LTE+LTE (SINGLE SIM PER LTE)
+    - WIFI+ETHERNET
+    - WIFI+ETHERNET+LTE (SINGLE & DUAL SIM option)
 
 **Please note that board must use the smallest available component as board dimension need to be as small as possible. The board also needs to be fully compatible with JLCPCB**
 
@@ -28,7 +29,7 @@ The project consists of a single board having capability to provide all the vari
     * Use ethernet MAC in STM32 and add DP83825I PHY (non-POE). [Suggested connector](https://jlcpcb.com/partdetail/RCH-RC01835/C708648). This connector will require separate magnetics. Preferred part for [external magnetics](https://jlcpcb.com/partdetail/PulseElec-H1102NLT/C18584).
     * RESET button should be angled and on the side of the enclosure.
     * 
-    * A7682E LTE Modem x 1 with MMCX antenna connector
+    * A7682E LTE Modem x 2 with MMCX antenna connector for both
     * Remove: All GPS based circuitry and antennae
     * Dual SIM (there will be some versions without second SIM cage and SIM-switcher i.e the 2nd SIM cage and SIM-Switcher will become DNP). Given the fact that we have two different Modems, there will be following possibilities and the circuit should be flexible to manage these:
         * There can be a single Modem with single SIM upon which the whole 2nd SIM cage and switcher circuitry will be DNP

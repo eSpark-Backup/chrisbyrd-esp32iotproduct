@@ -16,7 +16,7 @@ The project consists of a single board having capability to provide all the vari
 * The baseboard will have all the circuitry from the old v2.1 along with following additions / removals / changes:
     * The SoC will now be based on STM32F407 (preferably STM32F407VET6). Please do check JLCPCB availability before finalizing selection.
     * 16MB SPI Flash
-    * 6-pin, 1.54mm, dual row, right angled JST header is needed connected to SPI bus of MCU with 3.3V and GND. Do check for some standard pinout on the internet and follow that for connections.
+    * 6-pin, 2.54mm, dual row, right angled Male JST header is needed connected to SPI bus of MCU with 3.3V and GND. Do check for some standard pinout on the internet and follow that for connections.
     * ESP32-S3 SoC without any external SPI or Flash for wifi with MMCX antenna connector as well as PCB Antenna. SKY13489 RF switch or similar (JLCPCB available part) can be used to select between the two antennas for ESP32-S3. The selection should be done by STM32 and not ESP32. By default, PCB antenna will be active.
     * It is also required to be able to flash ESP32 using STM32 so connection of all relevant strapping pins is required to be able to tweak boot modes of ESP32 and flash it using serial bootloader and then run it afterwards using boot from Flash.
     * RS232 will stay

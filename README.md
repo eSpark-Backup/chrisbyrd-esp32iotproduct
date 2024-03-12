@@ -26,7 +26,11 @@ The project consists of a single board having capability to provide all the vari
     * Output relays: 3 (max 1A @ 30V DC)
     * GPIO Input pins: 12 (-0.5V – 30V). Our +/- power in the middle run of our 12 IO terminals in a similar way - ie 6 each side of the +/-. So 14 pins altogether here
     * JTAG Pogo for prototypes programming
-    * Dialer circuitry: Remove all the DTMF/PWM/MT8870DN1 altogether. This will be replaced with the Si32185 chip. The sheet will be called "DIAL" instead of "DTMF".
+    * Dialer circuitry: Remove all the DTMF/PWM/MT8870DN1 altogether. This will be replaced with the Si32185 chip. The sheet will be called "DIAL" instead of "DTMF". The Si32185 reference design is available in repo in docs folder. Some notes related to reference design as received from vendor are:
+        * The ref design schematic covers 3 sections, navigate to:
+            * Section 5.1 Si32185 base schematic, which includes branches to DCDC converter (see section 5.3) and input protection circuit (see Section 5.4)
+            * Regarding section 5.4, there is always a little uncertainty about the way its drawn (although the protection chip is shunt), “tip_ext” and “ring_ext” go to the outside world, tip and ring go back to the Proslic.
+            * The DC-DC converter generates the Vbat signal that feeds back into the Si32185. Its designed to run from a 4.5V to 16V DC input.
     * Remove: ATEC608 along with related circuitry and connections
     * Use ethernet MAC in STM32 and add DP83825I PHY (non-POE). [Suggested connector](https://jlcpcb.com/partdetail/RCH-RC01835/C708648). This connector will require separate magnetics. Preferred part for [external magnetics](https://jlcpcb.com/partdetail/PulseElec-H1102NLT/C18584).
     * RESET button should be angled and on the side of the enclosure.

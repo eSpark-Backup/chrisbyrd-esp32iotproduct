@@ -12,7 +12,7 @@ The project consists of a single board having capability to provide all the vari
 
 **Please note that board must use the smallest available component as board dimension need to be as small as possible. The board also needs to be fully compatible with JLCPCB**
 
-### Baseboard v3.0
+### Baseboard v3.0 Schematic
 * The baseboard will have all the circuitry from the old v2.1 along with following additions / removals / changes:
     * The SoC will now be based on STM32F407 (preferably STM32F407VET6). Please do check JLCPCB availability before finalizing selection.
     * 16MB SPI Flash
@@ -47,15 +47,16 @@ The project consists of a single board having capability to provide all the vari
 
 
 
-## PCB Placement concept reference
-### Top View (Aerial View)
-TBD
+### Baseboard v3.0 PCB
+- Major circuitry should be placed on rear side so that we can have a clean front side and only place the things (ideally) on front side as mentioned in the Front View below.
+- PCB target dimensions TBD.
+#### Front View
+![image](https://github.com/eSpark-Consultants/chrisbyrd-esp32iotproduct/assets/76909080/2454c2b2-d69f-4f67-a375-91257a7ee937)
 
-### Top View (Aerial View; Without Comms modules placed)
-TBD
 
-### Front View
-TBD
+#### Rear View
+![image](https://github.com/eSpark-Consultants/chrisbyrd-esp32iotproduct/assets/76909080/416e22b4-c11d-4108-ad23-f44dc7969934)
+
 
 ## Product Concept Image
 ![image](https://user-images.githubusercontent.com/76909080/231306667-7d5fe828-1458-43cc-afbd-3eca53725494.png)

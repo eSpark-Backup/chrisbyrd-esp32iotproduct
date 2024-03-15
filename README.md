@@ -42,7 +42,7 @@ The project consists of a single board having capability to provide all the vari
         * There can be a single Modem with single SIM upon which the whole 2nd SIM cage and switcher circuitry will be DNP
         * There can be a signle modem with dual SIM upon which the same Modem will have connection to both SIM Cages via Switcher as in old design.
         * There can be two Modems with Two SIMs each upon which, 1st SIM Cage will be with 1st Modem and 2nd SIM cage will with 2nd Modem. Solder bridger combinations with proper notes in schematic are needed here.
-    * The OLED should be on same Baseboard PCB along with 3 buttons. No LED required now. The Baseboard should have suitable connector for connecting FFC / FPC cable of N091-2832TSWFG05-C15 OLED module. Datasheet for the OLED is pushed to git docs folder.
+    * The OLED should be on same Baseboard PCB along with 4 buttons. Buttons should be normal tactile buttons with normal height and not elongated. No LED required now. The Baseboard should have suitable connector for connecting FFC / FPC cable of N091-2832TSWFG05-C15 OLED module. Datasheet for the OLED is pushed to git docs folder.
 
 
 

@@ -49,7 +49,8 @@ The project consists of a single board having capability to provide all the vari
 
 ### Baseboard v3.0 PCB
 - Major circuitry should be placed on rear side so that we can have a clean front side and only place the things (ideally) on front side as mentioned in the Front View below.
-- PCB target dimensions TBD.
+- PCB target dimensions 70mm tall 100mm wide.
+- The labels for terminal blocks will be inside instead of outside for this version of PCB.
 #### Front View
 ![image](https://github.com/eSpark-Consultants/chrisbyrd-esp32iotproduct/assets/76909080/2454c2b2-d69f-4f67-a375-91257a7ee937)
 

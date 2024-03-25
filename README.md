@@ -24,7 +24,7 @@ The project consists of a single board having capability to provide all the vari
     * RS485 will stay
     * 9-30v DC power input (same as before)
     * Remove: USB circuitry along with Oring circuit
-    * Output relays: 3 (max 1A @ 30V DC)
+    * Output relays: 3 (max 1A @ 30V DC). Preferred relay should be [this](https://jlcpcb.com/partdetail/OmronElectronics-G6K_2F_Y_TRDC5/C47190)
     * GPIO Input pins: 12 (-0.5V – 30V). Our +/- power input pins should be at the left of our 12 IO terminals. So 14 pins altogether here.
     * JTAG Pogo for prototypes programming
     * Dialer circuitry: Remove all the DTMF/PWM/MT8870DN1 altogether. This will be replaced with the Si32185 chip. The sheet will be called "DIAL" instead of "DTMF". The Si32185 reference design is available in repo in docs folder. Some notes related to reference design as received from vendor are:

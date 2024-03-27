@@ -23,7 +23,7 @@ The project consists of a single board having capability to provide all the vari
     * RS232 will stay
     * RS485 will stay
     * 9-30v DC power input (same as before)
-    * Remove: USB circuitry along with Oring circuit
+    * Remove: USB power circuitry along with Oring circuit and keep USB connector vertical type for programming only.
     * Remove: Varistor and isolation ICs.
     * Output relays: 3 (max 1A @ 30V DC). Preferred relay should be [this](https://jlcpcb.com/partdetail/OmronElectronics-G6K_2F_Y_TRDC5/C47190)
     * GPIO Input pins: 12 (-0.5V – 30V). Our +/- power input pins should be at the left of our 12 IO terminals. So 14 pins altogether here.

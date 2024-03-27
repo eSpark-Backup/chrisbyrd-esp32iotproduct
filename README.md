@@ -18,12 +18,13 @@ The project consists of a single board having capability to provide all the vari
     * 16MB SPI Flash
     * 1 blue LED on any spare GPIO (if available directly, no need to add any MUX as this requirement is optional only).
     * 6-pin, 2.54mm, dual row, Male JST header is needed connected to SPI bus of MCU with 3.3V and GND. Do check for some standard pinout on the internet and follow that for connections. Preferred connector is [here](https://jlcpcb.com/partdetail/475972-HX20012_6Ablack/C469723)
-    * ESP32-C3FH4 SoC without any external SPI or Flash for wifi+ble with MMCX antenna connector as well as PCB Antenna. SKY13489 RF switch or similar (JLCPCB available part) can be used to select between the two antennas for ESP32-C3FH4. The selection should be done by STM32 and not ESP32. By default, PCB antenna will be active.
+    * ESP32-C3FH4 SoC without any external SPI or Flash for wifi+ble with MMCX antenna connector as well as chip Antenna. SKY13489 RF switch or similar (JLCPCB available part) can be used to select between the two antennas for ESP32-C3FH4. The selection should be done by STM32 and not ESP32. By default, chip antenna will be active.
     * It is also required to be able to flash ESP32 using STM32 so connection of all relevant strapping pins is required to be able to tweak boot modes of ESP32 and flash it using serial bootloader and then run it afterwards using boot from Flash.
     * RS232 will stay
     * RS485 will stay
     * 9-30v DC power input (same as before)
     * Remove: USB circuitry along with Oring circuit
+    * Remove: Varistor and isolation ICs.
     * Output relays: 3 (max 1A @ 30V DC). Preferred relay should be [this](https://jlcpcb.com/partdetail/OmronElectronics-G6K_2F_Y_TRDC5/C47190)
     * GPIO Input pins: 12 (-0.5V – 30V). Our +/- power input pins should be at the left of our 12 IO terminals. So 14 pins altogether here.
     * JTAG Pogo for prototypes programming
@@ -49,8 +50,14 @@ The project consists of a single board having capability to provide all the vari
 
 ### Baseboard v3.0 PCB
 - Major circuitry should be placed on rear side so that we can have a clean front side and only place the things (ideally) on front side as mentioned in the Front View below.
-- PCB target dimensions 70mm tall 100mm wide.
+- PCB target dimensions 80mm tall 120mm wide.
 - The labels for terminal blocks will be inside instead of outside for this version of PCB.
+
+#### Conflicts with drawing due to size reduction
+- Move Modem 2 to top right side and related circuitry.
+- Move back the Modem 1 power circuitry to bottom (if required)
+- Remove keepout area for Sim connectors but don't put copper directly below the SIMs on same layer. You can use the backside for copper traces.
+
 #### Front View
 ![image](https://github.com/eSpark-Consultants/chrisbyrd-esp32iotproduct/assets/76909080/2454c2b2-d69f-4f67-a375-91257a7ee937)
 

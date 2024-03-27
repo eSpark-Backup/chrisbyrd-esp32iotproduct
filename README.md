@@ -44,6 +44,12 @@ The project consists of a single board having capability to provide all the vari
         * There can be a signle modem with dual SIM upon which the same Modem will have connection to both SIM Cages via Switcher as in old design.
         * There can be two Modems with Two SIMs each upon which, 1st SIM Cage will be with 1st Modem and 2nd SIM cage will with 2nd Modem. Solder bridger combinations with proper notes in schematic are needed here.
     * The OLED should be on same Baseboard PCB along with 4 buttons. Buttons should be normal tactile buttons with normal height and not elongated. No LED required now. The Baseboard should have suitable connector for connecting FFC / FPC cable of N091-2832TSWFG05-C15 OLED module. Datasheet for the OLED is pushed to git docs folder.
+    * Lose all other LEDs except for the ones below:
+        * Main 5v power
+        * Blue LED (STM pin 95)
+        * ESP32 Green (pin 16)
+        * LTE1 Netlight + Power (two close next to eachother)
+        * LTE2 Netlight + Power (two close next to eachother)
 
 
 
@@ -57,6 +63,16 @@ The project consists of a single board having capability to provide all the vari
 - Move Modem 2 to top right side and related circuitry.
 - Move back the Modem 1 power circuitry to bottom (if required)
 - Remove keepout area for Sim connectors but don't put copper directly below the SIMs on same layer. You can use the backside for copper traces.
+- One of the 4 buttons (the new BTN4) can move down to near the bottom row of input terminals. The remaining 3 buttons will need to be spaced out evenly under the OLED (one at each end, one in the middle)
+- Show the OLED mounted in position on top side with its 3D body so we can check the clearence and conflicts with other parts.
+- The LEDs needed on that front section are:
+    - Main 5v power
+    - Blue LED (STM pin 95)
+    - ESP32 Green (pin 16)
+    - LTE1 Netlight + Power (two close next to eachother)
+    - LTE2 Netlight + Power (two close next to eachother)
+- All LEDs should be on left side and labels should be on right side.
+- FPC needs to remain on the back side - make sure it is far enough away from the OLED mounting position so the FPC cable does not curl up too much.
 
 #### Front View
 ![image](https://github.com/eSpark-Consultants/chrisbyrd-esp32iotproduct/assets/76909080/2454c2b2-d69f-4f67-a375-91257a7ee937)

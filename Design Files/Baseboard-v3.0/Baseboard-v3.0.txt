@@ -1,7 +1,7 @@
 Board Information Report
 Filename     : C:\Users\XPENDER\Documents\GitHub\chrisbyrd-esp32iotproduct\Design Files\Baseboard-v3.0\Baseboard-v3.0.PcbDoc
 Date         : 3/31/2024
-Time         : 2:44:19 PM
+Time         : 6:32:45 PM
 Time Elapsed : 00:00:01
 
 General
@@ -10,19 +10,19 @@ General
 count : 2
 
 Routing Information
-    Routing completion, 39.39%
+    Routing completion, 42.12%
     Connections, 990
-    Connections routed, 390
-    Connections remaining, 600
+    Connections routed, 417
+    Connections remaining, 573
 count : 4
 
 Layer, Arcs, Pads, Vias, Tracks, Texts, Fills, Regions, ComponentBodies
-    Top Layer, 8, 422, 0, 264, 0, 25, 1, 0
-    GND-1, 0, 0, 0, 0, 0, 0, 0, 0
-    PWR, 0, 0, 0, 3, 0, 0, 0, 0
-    SIGNAL, 0, 0, 0, 52, 0, 0, 0, 0
+    Top Layer, 8, 422, 0, 324, 0, 36, 1, 0
+    GND-1, 0, 0, 0, 4, 0, 0, 0, 0
+    PWR, 0, 0, 0, 8, 0, 0, 0, 0
+    SIGNAL, 0, 0, 0, 53, 0, 0, 0, 0
     GND-2, 0, 0, 0, 0, 0, 0, 0, 0
-    Bottom Layer, 2, 957, 0, 804, 0, 40, 3, 0
+    Bottom Layer, 2, 957, 0, 860, 0, 49, 3, 0
     Dimensions, 0, 0, 0, 1, 0, 0, 0, 380
     Board Outline, 58, 0, 0, 105, 4, 0, 0, 0
     Fabrication, 0, 0, 0, 0, 0, 0, 0, 0
@@ -36,7 +36,7 @@ Layer, Arcs, Pads, Vias, Tracks, Texts, Fills, Regions, ComponentBodies
     Bottom Courtyard, 0, 0, 0, 0, 0, 0, 0, 0
     Bottom 3D Body, 0, 0, 0, 0, 0, 0, 0, 0
     Bottom Component Center, 0, 0, 0, 0, 0, 0, 0, 0
-    Multi-Layer, 0, 88, 151, 0, 0, 0, 16, 0
+    Multi-Layer, 0, 88, 198, 0, 0, 0, 16, 0
     Top Paste, 0, 0, 0, 0, 0, 0, 240, 0
     Top Overlay, 18, 0, 0, 925, 332, 17, 0, 0
     Top Solder, 0, 0, 0, 0, 0, 0, 1, 0
@@ -52,12 +52,12 @@ Drill Pairs, Vias
 count : 0
 
 Layer, Sq.In., Sq.MM., Percent of layer
-    Top Layer, 1.452, 936.544, 9%
-    GND-1, 0.399, 257.47, 2%
-    PWR, 0.424, 273.636, 3%
-    SIGNAL, 0.615, 396.809, 4%
-    GND-2, 0.399, 257.47, 2%
-    Bottom Layer, 3.521, 2271.472, 21%
+    Top Layer, 1.557, 1004.319, 9%
+    GND-1, 0.431, 277.799, 3%
+    PWR, 0.461, 297.16, 3%
+    SIGNAL, 0.645, 416.42, 4%
+    GND-2, 0.42, 270.932, 3%
+    Bottom Layer, 3.617, 2333.746, 22%
 count : 6
 
 Via Solder Mask, Count

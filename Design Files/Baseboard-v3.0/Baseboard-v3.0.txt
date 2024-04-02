@@ -1,8 +1,8 @@
 Board Information Report
 Filename     : C:\Users\XPENDER\Documents\GitHub\chrisbyrd-esp32iotproduct\Design Files\Baseboard-v3.0\Baseboard-v3.0.PcbDoc
-Date         : 3/31/2024
-Time         : 6:32:45 PM
-Time Elapsed : 00:00:01
+Date         : 4/2/2024
+Time         : 6:24:55 PM
+Time Elapsed : 00:00:00
 
 General
     Board Size, 4724.409milsx3543.307mils
@@ -10,21 +10,21 @@ General
 count : 2
 
 Routing Information
-    Routing completion, 42.12%
+    Routing completion, 85.66%
     Connections, 990
-    Connections routed, 417
-    Connections remaining, 573
+    Connections routed, 848
+    Connections remaining, 142
 count : 4
 
 Layer, Arcs, Pads, Vias, Tracks, Texts, Fills, Regions, ComponentBodies
-    Top Layer, 8, 422, 0, 324, 0, 36, 1, 0
-    GND-1, 0, 0, 0, 4, 0, 0, 0, 0
-    PWR, 0, 0, 0, 8, 0, 0, 0, 0
-    SIGNAL, 0, 0, 0, 53, 0, 0, 0, 0
+    Top Layer, 9, 420, 0, 486, 0, 36, 1, 0
+    SIGNAL-1, 0, 0, 0, 28, 0, 0, 0, 0
+    PWR, 0, 0, 0, 12, 0, 0, 0, 0
+    SIGNAL-2, 0, 0, 0, 156, 0, 0, 0, 0
     GND-2, 0, 0, 0, 0, 0, 0, 0, 0
-    Bottom Layer, 2, 957, 0, 860, 0, 49, 3, 0
+    Bottom Layer, 2, 959, 0, 1061, 1, 56, 3, 0
     Dimensions, 0, 0, 0, 1, 0, 0, 0, 380
-    Board Outline, 58, 0, 0, 105, 4, 0, 0, 0
+    Board Outline, 58, 0, 0, 90, 2, 0, 0, 0
     Fabrication, 0, 0, 0, 0, 0, 0, 0, 0
     Top 3D Body, 0, 0, 0, 0, 0, 0, 0, 0
     Top Courtyard, 0, 0, 0, 0, 0, 0, 0, 0
@@ -36,12 +36,12 @@ Layer, Arcs, Pads, Vias, Tracks, Texts, Fills, Regions, ComponentBodies
     Bottom Courtyard, 0, 0, 0, 0, 0, 0, 0, 0
     Bottom 3D Body, 0, 0, 0, 0, 0, 0, 0, 0
     Bottom Component Center, 0, 0, 0, 0, 0, 0, 0, 0
-    Multi-Layer, 0, 88, 198, 0, 0, 0, 16, 0
+    Multi-Layer, 0, 88, 250, 0, 0, 0, 16, 0
     Top Paste, 0, 0, 0, 0, 0, 0, 240, 0
-    Top Overlay, 18, 0, 0, 925, 332, 17, 0, 0
+    Top Overlay, 18, 0, 0, 949, 333, 14, 0, 0
     Top Solder, 0, 0, 0, 0, 0, 0, 1, 0
     Bottom Solder, 0, 0, 0, 0, 0, 0, 26, 0
-    Bottom Overlay, 14, 0, 0, 1511, 528, 20, 6, 0
+    Bottom Overlay, 14, 0, 0, 1515, 530, 23, 6, 0
     Bottom Paste, 0, 0, 0, 0, 0, 0, 241, 0
     Drill Guide, 0, 0, 0, 0, 0, 0, 0, 0
     Keep-Out Layer, 0, 0, 0, 0, 0, 0, 4, 0
@@ -52,12 +52,12 @@ Drill Pairs, Vias
 count : 0
 
 Layer, Sq.In., Sq.MM., Percent of layer
-    Top Layer, 1.557, 1004.319, 9%
-    GND-1, 0.431, 277.799, 3%
-    PWR, 0.461, 297.16, 3%
-    SIGNAL, 0.645, 416.42, 4%
-    GND-2, 0.42, 270.932, 3%
-    Bottom Layer, 3.617, 2333.746, 22%
+    Top Layer, 1.91, 1232.241, 11%
+    SIGNAL-1, 0.725, 467.901, 4%
+    PWR, 0.491, 316.47, 3%
+    SIGNAL-2, 1.111, 716.731, 7%
+    GND-2, 0.443, 285.826, 3%
+    Bottom Layer, 3.819, 2463.811, 23%
 count : 6
 
 Via Solder Mask, Count

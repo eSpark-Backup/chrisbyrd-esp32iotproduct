@@ -1,7 +1,7 @@
 Board Information Report
 Filename     : C:\Users\XPENDER\Documents\GitHub\chrisbyrd-esp32iotproduct\Design Files\Baseboard-v3.0\Baseboard-v3.0.PcbDoc
-Date         : 4/4/2024
-Time         : 12:15:43 AM
+Date         : 4/5/2024
+Time         : 12:52:15 AM
 Time Elapsed : 00:00:01
 
 General
@@ -10,20 +10,20 @@ General
 count : 2
 
 Routing Information
-    Routing completion, 91.92%
+    Routing completion, 97.47%
     Connections, 990
-    Connections routed, 910
-    Connections remaining, 80
+    Connections routed, 965
+    Connections remaining, 25
 count : 4
 
 Layer, Arcs, Pads, Vias, Tracks, Texts, Fills, Regions, ComponentBodies
-    Top Layer, 5, 424, 0, 669, 0, 43, 1, 0
-    SIGNAL-1, 0, 0, 0, 71, 0, 0, 0, 0
-    PWR, 0, 0, 0, 46, 0, 0, 0, 0
-    SIGNAL-2, 0, 0, 0, 248, 0, 0, 0, 0
-    GND-2, 0, 0, 0, 0, 0, 0, 0, 0
-    Bottom Layer, 2, 955, 0, 1200, 0, 61, 3, 0
-    Dimensions, 0, 0, 0, 1, 0, 0, 0, 381
+    Top Layer, 5, 424, 0, 783, 0, 46, 2, 0
+    SIGNAL-1, 0, 0, 0, 206, 0, 0, 1, 0
+    PWR, 0, 0, 0, 59, 0, 0, 1, 0
+    SIGNAL-2, 0, 0, 0, 328, 0, 0, 1, 0
+    GND-2, 0, 0, 0, 0, 0, 0, 1, 0
+    Bottom Layer, 2, 955, 0, 1387, 0, 60, 4, 0
+    Dimensions, 0, 0, 0, 49, 0, 0, 0, 381
     Board Outline, 58, 0, 0, 87, 2, 0, 0, 0
     Fabrication, 0, 0, 0, 0, 0, 0, 0, 0
     Top 3D Body, 0, 0, 0, 0, 0, 0, 0, 0
@@ -36,9 +36,9 @@ Layer, Arcs, Pads, Vias, Tracks, Texts, Fills, Regions, ComponentBodies
     Bottom Courtyard, 0, 0, 0, 0, 0, 0, 0, 0
     Bottom 3D Body, 0, 0, 0, 0, 0, 0, 0, 0
     Bottom Component Center, 0, 0, 0, 0, 0, 0, 0, 0
-    Multi-Layer, 0, 88, 311, 0, 0, 0, 16, 0
+    Multi-Layer, 0, 88, 416, 0, 0, 0, 16, 0
     Top Paste, 0, 0, 0, 0, 0, 0, 240, 0
-    Top Overlay, 18, 0, 0, 961, 337, 14, 0, 0
+    Top Overlay, 18, 0, 0, 961, 336, 14, 0, 0
     Top Solder, 0, 0, 0, 0, 0, 0, 1, 0
     Bottom Solder, 0, 0, 0, 0, 0, 0, 26, 0
     Bottom Overlay, 14, 0, 0, 1503, 526, 23, 6, 0
@@ -52,12 +52,12 @@ Drill Pairs, Vias
 count : 0
 
 Layer, Sq.In., Sq.MM., Percent of layer
-    Top Layer, 1.894, 1221.805, 11%
-    SIGNAL-1, 0.643, 415.157, 4%
-    PWR, 0.948, 611.561, 6%
-    SIGNAL-2, 1.256, 810.386, 8%
-    GND-2, 0.47, 303.299, 3%
-    Bottom Layer, 4.052, 2614.038, 24%
+    Top Layer, 2.143, 1382.652, 13%
+    SIGNAL-1, 0.942, 607.611, 6%
+    PWR, 1.013, 653.761, 6%
+    SIGNAL-2, 1.38, 890.469, 8%
+    GND-2, 0.517, 333.374, 3%
+    Bottom Layer, 4.207, 2714.282, 25%
 count : 6
 
 Via Solder Mask, Count
